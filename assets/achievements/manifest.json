@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "achievementId": "mingding-hongtong-achievements",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-18",
+  "entries": [
+    {
+      "id": "achievement_destined_red_eyes",
+      "title": "命定红瞳",
+      "category": "初遇",
+      "rarity": "传说",
+      "imageUrl": "assets/achievement_destined_red_eyes.jpg",
+      "thumbUrl": "assets/achievement_destined_red_eyes.jpg",
+      "description": "人潮熙攘，你撑着伞逆行其中。擦肩而过的刹那，不经意的一次回眸，恰好望见了雪色深处，那双燃烧般的红瞳。",
+      "hint": "在人潮与落雪之间，记住那双红瞳。",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "红瞳1.png",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_sunset_together",
+      "title": "落日同归",
+      "category": "约会",
+      "rarity": "珍贵",
+      "imageUrl": "assets/achievement_sunset_together.jpg",
+      "thumbUrl": "assets/achievement_sunset_together.jpg",
+      "description": "日光沉入城市边缘，喧嚣渐远；这一刻不必追问来处，只需和她一起看完落日。",
+      "quote": "与你并肩，看完一天最后的光。",
+      "hint": "在一天将尽时，与她一起看完日落。",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "红瞳2.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_wedding_red",
+      "title": "婚礼",
+      "category": "誓约",
+      "rarity": "传说",
+      "imageUrl": "assets/achievement_wedding_red.jpg",
+      "thumbUrl": "assets/achievement_wedding_red.jpg",
+      "description": "灯火映照下，红妆与誓言一同落定；从此以后，与你并肩走过人间长路。",
+      "quote": "山无陵，江水为竭，冬雷震震，夏雨雪，天地合，乃敢与君绝！",
+      "hint": "与她完成属于两个人的婚礼与誓约。",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "红瞳3.jpg",
+        "license": "仅作当前项目测试"
+      }
+    }
+  ]
+}
