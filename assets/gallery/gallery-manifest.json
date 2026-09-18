@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "updatedAt": "2026-09-18",
   "entries": [
     {
@@ -145,6 +145,71 @@
       "tags": ["沐子", "肖像"],
       "enabled": true,
       "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "李沐子_portrait_03.png", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-library-study",
+      "title": "书页之间",
+      "subtitle": "午后图书馆的一束光",
+      "description": "图书馆的午后安静得只剩下翻页声。她低头写着什么，阳光沿着书页和发梢落下来；你没有打扰，只把这一刻记在心里。",
+      "imageUrl": "assets/cg_library_study.jpg",
+      "thumbUrl": "assets/cg_library_study.jpg",
+      "rarity": "珍贵",
+      "chapter": "校园日常",
+      "tags": ["图书馆", "午后", "日常"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "图书馆.jpg", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-red-eyes-crows",
+      "title": "赤月鸦影",
+      "subtitle": "红月之下，黑羽无声",
+      "description": "赤色天幕压在雪原尽头，黑树与群鸦守住一轮冷白的月。她立在风雪中，像从旧日因果里回望而来。",
+      "imageUrl": "assets/cg_red_eyes_crows.jpg",
+      "thumbUrl": "assets/cg_red_eyes_crows.jpg",
+      "rarity": "珍藏",
+      "chapter": "修仙秘闻",
+      "tags": ["赤月", "群鸦", "雪原", "修仙秘闻"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "红瞳4.jpg", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-red-eyes-blue-white",
+      "title": "蓝白之间",
+      "subtitle": "风从高处经过",
+      "description": "蓝白色的天幕切开视野，她站在高处俯望人间，紫色衣摆被风托起；那双红瞳依旧冷静，却没有拒绝你的靠近。",
+      "imageUrl": "assets/cg_red_eyes_blue_white.jpg",
+      "thumbUrl": "assets/cg_red_eyes_blue_white.jpg",
+      "rarity": "珍贵",
+      "chapter": "人物",
+      "tags": ["蓝白", "肖像", "风"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "红瞳5.jpg", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-red-eyes-bridge",
+      "title": "天桥晚风",
+      "subtitle": "车流之上，回眸一瞬",
+      "description": "车流在桥下切成一片片灯光，她站在天桥边，晚风掠过长发。喧嚣没有让她回头，直到你叫住她。",
+      "imageUrl": "assets/cg_red_eyes_bridge.jpg",
+      "thumbUrl": "assets/cg_red_eyes_bridge.jpg",
+      "rarity": "珍贵",
+      "chapter": "城市",
+      "tags": ["天桥", "城市", "晚风", "回眸"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "天桥.jpg", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-red-eyes-invitation",
+      "title": "邀约",
+      "subtitle": "向你伸出的手",
+      "description": "她穿过斑驳的光影向你伸出手，像一场早已写好的邀约。红瞳静静望来，等你决定是否走近。",
+      "imageUrl": "assets/cg_red_eyes_invitation.jpg",
+      "thumbUrl": "assets/cg_red_eyes_invitation.jpg",
+      "rarity": "传说",
+      "chapter": "相逢",
+      "tags": ["邀约", "相逢", "选择"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "邀约.jpg", "license": "仅作当前项目测试" }
     }
   ]
 }

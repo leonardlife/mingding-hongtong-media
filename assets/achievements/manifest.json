@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "achievementId": "mingding-hongtong-achievements",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "updatedAt": "2026-09-18",
   "entries": [
     {
@@ -51,6 +51,23 @@
       "provenance": {
         "sourceType": "user-provided-test-asset",
         "originalFilename": "红瞳3.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_library_study",
+      "title": "共读时光",
+      "category": "校园日常",
+      "rarity": "珍贵",
+      "imageUrl": "assets/achievement_library_study.jpg",
+      "thumbUrl": "assets/achievement_library_study.jpg",
+      "description": "在图书馆与她并肩度过一段安静的学习时光。",
+      "quote": "书页翻过一页，我们之间也近了一点。",
+      "hint": "与她在图书馆共同学习，直到窗外的光线慢慢变暖。",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "图书馆.jpg",
         "license": "仅作当前项目测试"
       }
     }
