@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "achievementId": "mingding-hongtong-achievements",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "updatedAt": "2026-09-18",
   "entries": [
     {
@@ -68,6 +68,23 @@
       "provenance": {
         "sourceType": "user-provided-test-asset",
         "originalFilename": "图书馆.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_campus_festival",
+      "title": "灯火正好",
+      "category": "校园活动",
+      "rarity": "珍贵",
+      "imageUrl": "assets/achievement_campus_festival.jpg",
+      "thumbUrl": "assets/achievement_campus_festival.jpg",
+      "description": "与她共同度过一次完整的校园文化节，把樱花、钟声和那天的身影留在同一页记忆里。",
+      "quote": "花开正好，灯火也正好；恰好那天，你在我身旁。",
+      "hint": "与她共同度过一次完整的校园文化节。",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "文化节留恋.png",
         "license": "仅作当前项目测试"
       }
     }

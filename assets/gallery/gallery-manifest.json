@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "updatedAt": "2026-09-18",
   "entries": [
     {
@@ -210,6 +210,19 @@
       "tags": ["邀约", "相逢", "选择"],
       "enabled": true,
       "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "邀约.jpg", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-campus-festival-memory",
+      "title": "樱色留念",
+      "subtitle": "文化节的花瓣与钟声",
+      "description": "文化节的樱花沿着校园小径盛开，钟楼在晴空下静静报时。她提着书包走过花影，像把这一日的青春与春色一并留在了镜头里。",
+      "imageUrl": "assets/cg_campus_festival_memory.jpg",
+      "thumbUrl": "assets/cg_campus_festival_memory.jpg",
+      "rarity": "珍贵",
+      "chapter": "校园活动",
+      "tags": ["文化节", "樱花", "校园", "留念"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "文化节留恋.png", "license": "仅作当前项目测试" }
     }
   ]
 }
