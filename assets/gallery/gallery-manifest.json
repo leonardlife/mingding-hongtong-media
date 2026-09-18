@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "galleryId": "mingding-hongtong-campus",
+  "version": "0.3.0",
+  "updatedAt": "2026-09-18",
+  "entries": [
+    {
+      "id": "cg-destined-red-eyes-snow",
+      "title": "初识",
+      "subtitle": "雪色深处的一次回眸",
+      "description": "人潮熙攘，你逆行其中。擦肩而过的刹那，不经意的一次回眸，恰好望见了雪色深处，那双燃烧般的红瞳。",
+      "imageUrl": "assets/cg_red_eyes_initial.jpg",
+      "thumbUrl": "assets/cg_red_eyes_initial.jpg",
+      "rarity": "传说",
+      "chapter": "初遇",
+      "tags": ["雪夜", "初见", "临江"],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "红瞳1.png",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-sunset-together",
+      "title": "落日",
+      "subtitle": "黄昏尽头，与你并肩",
+      "description": "日光沉入城市边缘，喧嚣渐远；这一刻不必追问来处，只需和她一起看完落日。",
+      "imageUrl": "assets/cg_red_eyes_sunset.jpg",
+      "thumbUrl": "assets/cg_red_eyes_sunset.jpg",
+      "rarity": "珍贵",
+      "chapter": "约会",
+      "tags": ["落日", "约会", "临江"],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "红瞳2.jpg",
+        "sourcePage": "",
+        "artist": "待登记",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-red-eyes-calling",
+      "title": "红瞳的呼唤",
+      "subtitle": "越过星幕，向你伸出手",
+      "description": "紫色星幕在身后裂开，她隔着漫长夜色向前伸手。",
+      "imageUrl": "assets/cg_red_eyes_calling.jpg",
+      "thumbUrl": "assets/cg_red_eyes_calling.jpg",
+      "rarity": "珍藏",
+      "chapter": "红瞳",
+      "tags": ["红瞳", "星幕", "相逢"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "李沐子_achievement_01.jpg", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-violet-shards",
+      "title": "紫晶裂影",
+      "subtitle": "破碎倒影中的她",
+      "description": "雷光与紫晶将夜色切成无数碎片，每一片都映着同一双红瞳。",
+      "imageUrl": "assets/cg_violet_shards.jpg",
+      "thumbUrl": "assets/cg_violet_shards.jpg",
+      "rarity": "珍藏",
+      "chapter": "秘闻",
+      "tags": ["紫晶", "雷光", "倒影"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "沐子_achievement_01.png", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-muzi-memory-02",
+      "title": "沐子影像·其二",
+      "subtitle": "尚待命名的记忆",
+      "description": "来自测试素材库的一段沐子影像，正式剧情名称与说明将在事件落定后补全。",
+      "imageUrl": "assets/cg_muzi_memory_02.jpg",
+      "thumbUrl": "assets/cg_muzi_memory_02.jpg",
+      "rarity": "记忆",
+      "chapter": "待归档",
+      "tags": ["沐子", "测试"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "沐子_achievement_02.png", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-muzi-memory-03",
+      "title": "沐子影像·其三",
+      "subtitle": "尚待命名的记忆",
+      "description": "来自测试素材库的一段沐子影像，正式剧情名称与说明将在事件落定后补全。",
+      "imageUrl": "assets/cg_muzi_memory_03.jpg",
+      "thumbUrl": "assets/cg_muzi_memory_03.jpg",
+      "rarity": "记忆",
+      "chapter": "待归档",
+      "tags": ["沐子", "测试"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "沐子_achievement_03.png", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-wedding-red",
+      "title": "红妆",
+      "subtitle": "灯火映照下的誓约",
+      "description": "金线沿着嫁衣流转，灯影深处，那双红瞳安静地望向她所认定的人。",
+      "imageUrl": "assets/cg_wedding_red.jpg",
+      "thumbUrl": "assets/cg_wedding_red.jpg",
+      "rarity": "传说",
+      "chapter": "誓约",
+      "tags": ["婚礼", "红妆", "誓约"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "红瞳3.jpg", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-spring-thunder",
+      "title": "春雷天尊",
+      "subtitle": "雷云之后，青龙长吟",
+      "description": "校园日常背后偶尔显露的修仙旧影；雷光照亮少女与盘踞天幕的青龙。",
+      "imageUrl": "assets/cg_spring_thunder.jpg",
+      "thumbUrl": "assets/cg_spring_thunder.jpg",
+      "rarity": "秘藏",
+      "chapter": "修仙秘闻",
+      "tags": ["春雷", "青龙", "秘闻"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "春雷天尊_achievement_01.png", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-muzi-portrait-02",
+      "title": "沐子肖像·其二",
+      "subtitle": "留存在回廊中的侧影",
+      "description": "一幅尚未绑定正式剧情事件的沐子肖像，用于测试画廊的纵向构图展示。",
+      "imageUrl": "assets/cg_muzi_portrait_02.jpg",
+      "thumbUrl": "assets/cg_muzi_portrait_02.jpg",
+      "rarity": "肖像",
+      "chapter": "人物",
+      "tags": ["沐子", "肖像"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "李沐子_portrait_02.png", "license": "仅作当前项目测试" }
+    },
+    {
+      "id": "cg-muzi-portrait-03",
+      "title": "沐子肖像·其三",
+      "subtitle": "留存在回廊中的侧影",
+      "description": "一幅尚未绑定正式剧情事件的沐子肖像，用于测试画廊的纵向构图展示。",
+      "imageUrl": "assets/cg_muzi_portrait_03.jpg",
+      "thumbUrl": "assets/cg_muzi_portrait_03.jpg",
+      "rarity": "肖像",
+      "chapter": "人物",
+      "tags": ["沐子", "肖像"],
+      "enabled": true,
+      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "李沐子_portrait_03.png", "license": "仅作当前项目测试" }
+    }
+  ]
+}
