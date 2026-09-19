@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.7.0",
-  "updatedAt": "2026-09-19",
+  "version": "0.8.0",
+  "updatedAt": "2026-09-20",
   "entries": [
     {
       "id": "cg-destined-red-eyes-snow",
@@ -328,6 +328,53 @@
       "rarity": "珍贵",
       "imageUrl": "assets/cg_night_drive_sports_car.jpg",
       "title": "夜色兜风"
+    },
+    {
+      "id": "cg-dance-ball",
+      "title": "共舞今夜",
+      "subtitle": "灯影深处，向你伸出的手",
+      "description": "灯影与人群交错，她穿过喧闹的舞会向你伸出手。那一晚，所有目光都退到身后，只剩你们在乐声里共舞。",
+      "imageUrl": "assets/cg_dance_ball.jpg",
+      "thumbUrl": "assets/cg_dance_ball.jpg",
+      "rarity": "珍贵",
+      "chapter": "校园活动",
+      "tags": [
+        "舞会",
+        "共舞",
+        "校园"
+      ],
+      "enabled": true,
+      "achievementId": "achievement_dance_ball",
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "毕业舞会.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-byzantine-mosaic",
+      "title": "拜占庭圣像",
+      "subtitle": "金色马赛克中的红瞳",
+      "description": "古老的马赛克画以金色与深蓝铺开星辰、飞鸟与圣像；她捧着镶嵌宝石的书，隔着千年的光泽静静望来。",
+      "imageUrl": "assets/cg_byzantine_mosaic.jpg",
+      "thumbUrl": "assets/cg_byzantine_mosaic.jpg",
+      "rarity": "秘藏",
+      "chapter": "人物",
+      "tags": [
+        "马赛克",
+        "圣像",
+        "红瞳"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "拜占庭艺术画.jpg",
+        "license": "仅作当前项目测试"
+      }
     }
   ]
 }

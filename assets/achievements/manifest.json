@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "achievementId": "mingding-hongtong-achievements",
-  "version": "0.4.0",
-  "updatedAt": "2026-09-19",
+  "version": "0.5.0",
+  "updatedAt": "2026-09-20",
   "entries": [
     {
       "id": "achievement_destined_red_eyes",
@@ -453,6 +453,69 @@
       "provenance": {
         "sourceType": "user-provided-test-asset",
         "originalFilename": "天台.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_dance_ball",
+      "title": "共舞今夜",
+      "category": "校园活动",
+      "rarity": "珍贵",
+      "imageUrl": "assets/achievement_dance_ball.jpg",
+      "description": "灯影与人群交错，她穿过喧闹的舞会向你伸出手。那一晚，所有目光都退到身后，只剩你们在乐声里共舞。",
+      "quote": "今夜的灯火为你而亮，而我只想与你共舞这一曲。",
+      "hint": "与李沐子共同参加一次舞会，并完成一段共舞。",
+      "evidenceLabel": "与李沐子共同参加舞会并完成共舞",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "dance_ball_together"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "ball",
+            "field": "环境标签",
+            "operator": "includes",
+            "value": "舞会"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "user_present",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "user在场"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 80
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_dance_ball.jpg",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "毕业舞会.jpg",
         "license": "仅作当前项目测试"
       }
     }
