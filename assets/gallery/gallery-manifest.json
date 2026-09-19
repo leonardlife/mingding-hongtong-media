@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.5.0",
-  "updatedAt": "2026-09-18",
+  "version": "0.6.0",
+  "updatedAt": "2026-09-19",
   "entries": [
     {
       "id": "cg-destined-red-eyes-snow",
@@ -13,7 +13,11 @@
       "thumbUrl": "assets/cg_red_eyes_initial.jpg",
       "rarity": "传说",
       "chapter": "初遇",
-      "tags": ["雪夜", "初见", "临江"],
+      "tags": [
+        "雪夜",
+        "初见",
+        "临江"
+      ],
       "enabled": true,
       "provenance": {
         "sourceType": "user-provided-test-asset",
@@ -32,7 +36,11 @@
       "thumbUrl": "assets/cg_red_eyes_sunset.jpg",
       "rarity": "珍贵",
       "chapter": "约会",
-      "tags": ["落日", "约会", "临江"],
+      "tags": [
+        "落日",
+        "约会",
+        "临江"
+      ],
       "enabled": true,
       "provenance": {
         "sourceType": "user-provided-test-asset",
@@ -43,58 +51,6 @@
       }
     },
     {
-      "id": "cg-red-eyes-calling",
-      "title": "红瞳的呼唤",
-      "subtitle": "越过星幕，向你伸出手",
-      "description": "紫色星幕在身后裂开，她隔着漫长夜色向前伸手。",
-      "imageUrl": "assets/cg_red_eyes_calling.jpg",
-      "thumbUrl": "assets/cg_red_eyes_calling.jpg",
-      "rarity": "珍藏",
-      "chapter": "红瞳",
-      "tags": ["红瞳", "星幕", "相逢"],
-      "enabled": true,
-      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "李沐子_achievement_01.jpg", "license": "仅作当前项目测试" }
-    },
-    {
-      "id": "cg-violet-shards",
-      "title": "紫晶裂影",
-      "subtitle": "破碎倒影中的她",
-      "description": "雷光与紫晶将夜色切成无数碎片，每一片都映着同一双红瞳。",
-      "imageUrl": "assets/cg_violet_shards.jpg",
-      "thumbUrl": "assets/cg_violet_shards.jpg",
-      "rarity": "珍藏",
-      "chapter": "秘闻",
-      "tags": ["紫晶", "雷光", "倒影"],
-      "enabled": true,
-      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "沐子_achievement_01.png", "license": "仅作当前项目测试" }
-    },
-    {
-      "id": "cg-muzi-memory-02",
-      "title": "沐子影像·其二",
-      "subtitle": "尚待命名的记忆",
-      "description": "来自测试素材库的一段沐子影像，正式剧情名称与说明将在事件落定后补全。",
-      "imageUrl": "assets/cg_muzi_memory_02.jpg",
-      "thumbUrl": "assets/cg_muzi_memory_02.jpg",
-      "rarity": "记忆",
-      "chapter": "待归档",
-      "tags": ["沐子", "测试"],
-      "enabled": true,
-      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "沐子_achievement_02.png", "license": "仅作当前项目测试" }
-    },
-    {
-      "id": "cg-muzi-memory-03",
-      "title": "沐子影像·其三",
-      "subtitle": "尚待命名的记忆",
-      "description": "来自测试素材库的一段沐子影像，正式剧情名称与说明将在事件落定后补全。",
-      "imageUrl": "assets/cg_muzi_memory_03.jpg",
-      "thumbUrl": "assets/cg_muzi_memory_03.jpg",
-      "rarity": "记忆",
-      "chapter": "待归档",
-      "tags": ["沐子", "测试"],
-      "enabled": true,
-      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "沐子_achievement_03.png", "license": "仅作当前项目测试" }
-    },
-    {
       "id": "cg-wedding-red",
       "title": "红妆",
       "subtitle": "灯火映照下的誓约",
@@ -103,9 +59,17 @@
       "thumbUrl": "assets/cg_wedding_red.jpg",
       "rarity": "传说",
       "chapter": "誓约",
-      "tags": ["婚礼", "红妆", "誓约"],
+      "tags": [
+        "婚礼",
+        "红妆",
+        "誓约"
+      ],
       "enabled": true,
-      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "红瞳3.jpg", "license": "仅作当前项目测试" }
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "红瞳3.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-spring-thunder",
@@ -116,35 +80,17 @@
       "thumbUrl": "assets/cg_spring_thunder.jpg",
       "rarity": "秘藏",
       "chapter": "修仙秘闻",
-      "tags": ["春雷", "青龙", "秘闻"],
+      "tags": [
+        "春雷",
+        "青龙",
+        "秘闻"
+      ],
       "enabled": true,
-      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "春雷天尊_achievement_01.png", "license": "仅作当前项目测试" }
-    },
-    {
-      "id": "cg-muzi-portrait-02",
-      "title": "沐子肖像·其二",
-      "subtitle": "留存在回廊中的侧影",
-      "description": "一幅尚未绑定正式剧情事件的沐子肖像，用于测试画廊的纵向构图展示。",
-      "imageUrl": "assets/cg_muzi_portrait_02.jpg",
-      "thumbUrl": "assets/cg_muzi_portrait_02.jpg",
-      "rarity": "肖像",
-      "chapter": "人物",
-      "tags": ["沐子", "肖像"],
-      "enabled": true,
-      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "李沐子_portrait_02.png", "license": "仅作当前项目测试" }
-    },
-    {
-      "id": "cg-muzi-portrait-03",
-      "title": "沐子肖像·其三",
-      "subtitle": "留存在回廊中的侧影",
-      "description": "一幅尚未绑定正式剧情事件的沐子肖像，用于测试画廊的纵向构图展示。",
-      "imageUrl": "assets/cg_muzi_portrait_03.jpg",
-      "thumbUrl": "assets/cg_muzi_portrait_03.jpg",
-      "rarity": "肖像",
-      "chapter": "人物",
-      "tags": ["沐子", "肖像"],
-      "enabled": true,
-      "provenance": { "sourceType": "user-provided-local-test-asset", "originalFilename": "李沐子_portrait_03.png", "license": "仅作当前项目测试" }
+      "provenance": {
+        "sourceType": "user-provided-local-test-asset",
+        "originalFilename": "春雷天尊_achievement_01.png",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-library-study",
@@ -155,9 +101,17 @@
       "thumbUrl": "assets/cg_library_study.jpg",
       "rarity": "珍贵",
       "chapter": "校园日常",
-      "tags": ["图书馆", "午后", "日常"],
+      "tags": [
+        "图书馆",
+        "午后",
+        "日常"
+      ],
       "enabled": true,
-      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "图书馆.jpg", "license": "仅作当前项目测试" }
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "图书馆.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-red-eyes-crows",
@@ -168,9 +122,18 @@
       "thumbUrl": "assets/cg_red_eyes_crows.jpg",
       "rarity": "珍藏",
       "chapter": "修仙秘闻",
-      "tags": ["赤月", "群鸦", "雪原", "修仙秘闻"],
+      "tags": [
+        "赤月",
+        "群鸦",
+        "雪原",
+        "修仙秘闻"
+      ],
       "enabled": true,
-      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "红瞳4.jpg", "license": "仅作当前项目测试" }
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "红瞳4.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-red-eyes-blue-white",
@@ -181,9 +144,17 @@
       "thumbUrl": "assets/cg_red_eyes_blue_white.jpg",
       "rarity": "珍贵",
       "chapter": "人物",
-      "tags": ["蓝白", "肖像", "风"],
+      "tags": [
+        "蓝白",
+        "肖像",
+        "风"
+      ],
       "enabled": true,
-      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "红瞳5.jpg", "license": "仅作当前项目测试" }
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "红瞳5.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-red-eyes-bridge",
@@ -194,9 +165,18 @@
       "thumbUrl": "assets/cg_red_eyes_bridge.jpg",
       "rarity": "珍贵",
       "chapter": "城市",
-      "tags": ["天桥", "城市", "晚风", "回眸"],
+      "tags": [
+        "天桥",
+        "城市",
+        "晚风",
+        "回眸"
+      ],
       "enabled": true,
-      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "天桥.jpg", "license": "仅作当前项目测试" }
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "天桥.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-red-eyes-invitation",
@@ -207,9 +187,17 @@
       "thumbUrl": "assets/cg_red_eyes_invitation.jpg",
       "rarity": "传说",
       "chapter": "相逢",
-      "tags": ["邀约", "相逢", "选择"],
+      "tags": [
+        "邀约",
+        "相逢",
+        "选择"
+      ],
       "enabled": true,
-      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "邀约.jpg", "license": "仅作当前项目测试" }
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "邀约.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-campus-festival-memory",
@@ -220,9 +208,84 @@
       "thumbUrl": "assets/cg_campus_festival_memory.jpg",
       "rarity": "珍贵",
       "chapter": "校园活动",
-      "tags": ["文化节", "樱花", "校园", "留念"],
+      "tags": [
+        "文化节",
+        "樱花",
+        "校园",
+        "留念"
+      ],
       "enabled": true,
-      "provenance": { "sourceType": "user-provided-test-asset", "originalFilename": "文化节留恋.png", "license": "仅作当前项目测试" }
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "文化节留恋.png",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-rooftop-tribulation",
+      "title": "天台雷劫",
+      "subtitle": "雷光撕开日常的天幕",
+      "description": "乌云压住教学楼顶，雷光在天幕间炸开。你亲自在场，见证她无法再隐藏的修仙秘密。",
+      "imageUrl": "assets/cg_rooftop_tribulation.jpg",
+      "thumbUrl": "assets/cg_rooftop_tribulation.jpg",
+      "rarity": "传说",
+      "chapter": "修仙秘闻",
+      "tags": [
+        "天台",
+        "雷劫",
+        "修仙秘闻"
+      ],
+      "enabled": true,
+      "achievementId": "achievement_rooftop_secret",
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "天台.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-shared-umbrella",
+      "title": "一伞听雨",
+      "subtitle": "雨落临江，同撑一把伞",
+      "description": "雨幕模糊了城市的灯光，她撑着透明雨伞站在你身旁；伞外是雨，伞下是两个人的路。",
+      "imageUrl": "assets/cg_shared_umbrella.jpg",
+      "thumbUrl": "assets/cg_shared_umbrella.jpg",
+      "rarity": "稀有",
+      "chapter": "校园日常",
+      "tags": [
+        "雨天",
+        "共伞",
+        "日常"
+      ],
+      "enabled": true,
+      "achievementId": "achievement_shared_umbrella",
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "雨天.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-nightmare-awakening",
+      "title": "今夜无梦",
+      "subtitle": "从旧日噩梦中醒来",
+      "description": "深夜的灯光落在枕边，她从旧日噩梦中惊醒；这一次，睁开眼时不再只有漫长黑夜。",
+      "imageUrl": "assets/cg_nightmare_awakening.jpg",
+      "thumbUrl": "assets/cg_nightmare_awakening.jpg",
+      "rarity": "珍贵",
+      "chapter": "陪伴",
+      "tags": [
+        "噩梦",
+        "惊醒",
+        "陪伴"
+      ],
+      "enabled": true,
+      "achievementId": "achievement_first_nightmare",
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "惊醒.jpg",
+        "license": "仅作当前项目测试"
+      }
     }
   ]
 }

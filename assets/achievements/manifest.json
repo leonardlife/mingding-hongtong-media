@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "achievementId": "mingding-hongtong-achievements",
-  "version": "0.3.0",
-  "updatedAt": "2026-09-18",
+  "version": "0.4.0",
+  "updatedAt": "2026-09-19",
   "entries": [
     {
       "id": "achievement_destined_red_eyes",
@@ -10,14 +10,107 @@
       "category": "初遇",
       "rarity": "传说",
       "imageUrl": "assets/achievement_destined_red_eyes.jpg",
-      "thumbUrl": "assets/achievement_destined_red_eyes.jpg",
-      "description": "人潮熙攘，你撑着伞逆行其中。擦肩而过的刹那，不经意的一次回眸，恰好望见了雪色深处，那双燃烧般的红瞳。",
-       "quote": "只缘感君一回顾，使我思君朝与暮。",
+      "description": "那年，临江落了一场很大的雪。\n人潮熙攘，你撑着伞逆行其中。擦肩而过的刹那，不经意的一次回眸，恰好望见了雪色深处，那双如火焰般燃烧的红瞳。",
+      "quote": "只缘感君一回顾，使我思君朝与暮。",
       "hint": "在人潮与落雪之间，记住那双红瞳。",
+      "evidenceLabel": "初次与李沐子相遇并完成关键回眸",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "first_fateful_meeting"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "user_present",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "user在场"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 80
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_destined_red_eyes.jpg",
       "enabled": true,
       "provenance": {
         "sourceType": "user-provided-test-asset",
         "originalFilename": "红瞳1.png",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_campus_festival",
+      "title": "灯火正好",
+      "category": "校园活动",
+      "rarity": "珍贵",
+      "imageUrl": "assets/achievement_campus_festival.jpg",
+      "description": "与她共同度过一次完整的校园文化节，把樱花、钟声和那天的身影留在同一页记忆里。",
+      "quote": "花开正好，灯火也正好；恰好那天，你在我身旁。",
+      "hint": "与她共同度过一次完整的校园文化节。",
+      "evidenceLabel": "与李沐子共同参加并完整度过一次校园文化节",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "campus_festival_completed"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "user_present",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "user在场"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 80
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_campus_festival.jpg",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "文化节留恋.png",
         "license": "仅作当前项目测试"
       }
     },
@@ -27,10 +120,48 @@
       "category": "约会",
       "rarity": "珍贵",
       "imageUrl": "assets/achievement_sunset_together.jpg",
-      "thumbUrl": "assets/achievement_sunset_together.jpg",
       "description": "日光沉入城市边缘，喧嚣渐远；这一刻不必追问来处，只需和她一起看完落日。",
-      "quote": "与你并肩，看完一天最后的光。",
+      "quote": "落日沉入远山，而她仍在身旁。",
       "hint": "在一天将尽时，与她一起看完日落。",
+      "evidenceLabel": "与李沐子共同看完一次落日",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "shared_sunset"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "user_present",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "user在场"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 80
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_sunset_together.jpg",
       "enabled": true,
       "provenance": {
         "sourceType": "user-provided-test-asset",
@@ -44,10 +175,54 @@
       "category": "誓约",
       "rarity": "传说",
       "imageUrl": "assets/achievement_wedding_red.jpg",
-      "thumbUrl": "assets/achievement_wedding_red.jpg",
       "description": "灯火映照下，红妆与誓言一同落定；从此以后，与你并肩走过人间长路。",
       "quote": "山无陵，江水为竭，冬雷震震，夏雨雪，天地合，乃敢与君绝！",
       "hint": "与她完成属于两个人的婚礼与誓约。",
+      "evidenceLabel": "与李沐子完成婚礼并立下终身誓约",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "wedding_vow_completed"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "formal_vow",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "正式誓约"
+          },
+          {
+            "id": "user_present",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "user在场"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 90
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_wedding_red.jpg",
       "enabled": true,
       "provenance": {
         "sourceType": "user-provided-test-asset",
@@ -61,10 +236,48 @@
       "category": "校园日常",
       "rarity": "珍贵",
       "imageUrl": "assets/achievement_library_study.jpg",
-      "thumbUrl": "assets/achievement_library_study.jpg",
       "description": "在图书馆与她并肩度过一段安静的学习时光。",
       "quote": "书页翻过一页，我们之间也近了一点。",
       "hint": "与她在图书馆共同学习，直到窗外的光线慢慢变暖。",
+      "evidenceLabel": "与李沐子在图书馆共同学习并完成一段安静相处",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "library_study_together"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "library",
+            "field": "环境标签",
+            "operator": "includes",
+            "value": "图书馆"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 80
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_library_study.jpg",
       "enabled": true,
       "provenance": {
         "sourceType": "user-provided-test-asset",
@@ -73,21 +286,176 @@
       }
     },
     {
-      "id": "achievement_campus_festival",
-      "title": "灯火正好",
-      "category": "校园活动",
-      "rarity": "珍贵",
-      "imageUrl": "assets/achievement_campus_festival.jpg",
-      "thumbUrl": "assets/achievement_campus_festival.jpg",
-      "description": "与她共同度过一次完整的校园文化节，把樱花、钟声和那天的身影留在同一页记忆里。",
-      "quote": "花开正好，灯火也正好；恰好那天，你在我身旁。",
-      "hint": "与她共同度过一次完整的校园文化节。",
+      "id": "achievement_shared_umbrella",
+      "title": "一伞听雨",
+      "category": "日常",
+      "rarity": "稀有",
+      "imageUrl": "assets/achievement_shared_umbrella.jpg",
+      "description": "雨落临江，你与她在同一把伞下并肩而行。",
+      "quote": "伞外是雨，伞下是两个人的路。",
+      "hint": "雨落临江，与她共撑一把伞。",
+      "evidenceLabel": "雨天与李沐子共同撑伞并完成同行",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "shared_umbrella"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "rain",
+            "field": "环境标签",
+            "operator": "includes",
+            "value": "雨天"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 80
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_shared_umbrella.jpg",
       "enabled": true,
       "provenance": {
         "sourceType": "user-provided-test-asset",
-        "originalFilename": "文化节留恋.png",
+        "originalFilename": "雨天.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_first_nightmare",
+      "title": "今夜无梦",
+      "category": "陪伴",
+      "rarity": "珍贵",
+      "imageUrl": "assets/achievement_first_nightmare.jpg",
+      "description": "旧日的噩梦再次叩门，但这一次，她醒来时不再独自面对黑夜。",
+      "quote": "睡吧，今夜有人守着你。",
+      "hint": "第一次陪她从旧日噩梦中安然醒来。",
+      "evidenceLabel": "第一次完整陪伴并安抚从噩梦中惊醒的李沐子",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "nightmare_comforted"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "first",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "首次完成"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 85
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_first_nightmare.jpg",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "惊醒.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_rooftop_secret",
+      "title": "天台之上",
+      "category": "修仙秘闻",
+      "rarity": "传说",
+      "imageUrl": "assets/achievement_rooftop_secret.jpg",
+      "description": "天幕低垂，雷光撕开校园的日常；你亲自在场，见证她再也无法隐藏的秘密。",
+      "quote": "从这一刻起，她的秘密也有了共同承担的人。",
+      "hint": "亲自在场，见证她无法再隐藏的秘密。",
+      "evidenceLabel": "<user>亲自在场并完整见证李沐子的天台渡劫",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "rooftop_tribulation_witnessed"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "rooftop",
+            "field": "环境标签",
+            "operator": "includes",
+            "value": "天台"
+          },
+          {
+            "id": "user_present",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "user在场"
+          },
+          {
+            "id": "secret_revealed",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "修仙秘密暴露"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 90
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_rooftop_secret.jpg",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "天台.jpg",
         "license": "仅作当前项目测试"
       }
     }
-  ]
+  ],
+  "rulesVersion": "achievement-rules@1.0.0"
 }
