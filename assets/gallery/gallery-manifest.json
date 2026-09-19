@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "updatedAt": "2026-09-19",
   "entries": [
     {
@@ -75,7 +75,7 @@
       "id": "cg-spring-thunder",
       "title": "春雷天尊",
       "subtitle": "雷云之后，青龙长吟",
-      "description": "校园日常背后偶尔显露的修仙旧影；雷光照亮少女与盘踞天幕的青龙。",
+      "description": "在遥远的未来，雷云压住了天幕。她坐在高处，雷龙盘旋身旁；雷光炸开，回望旧日因果，眼中柔情不减。",
       "imageUrl": "assets/cg_spring_thunder.jpg",
       "thumbUrl": "assets/cg_spring_thunder.jpg",
       "rarity": "秘藏",
@@ -117,7 +117,7 @@
       "id": "cg-red-eyes-crows",
       "title": "赤月鸦影",
       "subtitle": "红月之下，黑羽无声",
-      "description": "赤色天幕压在雪原尽头，黑树与群鸦守住一轮冷白的月。她立在风雪中，像从旧日因果里回望而来。",
+      "description": "赤色天幕压在雪原尽头，黑树与群鸦守住一轮冷白的月。她立在风雪中，凝视自身过往。",
       "imageUrl": "assets/cg_red_eyes_crows.jpg",
       "thumbUrl": "assets/cg_red_eyes_crows.jpg",
       "rarity": "珍藏",
@@ -286,6 +286,48 @@
         "originalFilename": "惊醒.jpg",
         "license": "仅作当前项目测试"
       }
+    },
+    {
+      "tags": [
+        "郊外",
+        "黄昏",
+        "窗台"
+      ],
+      "id": "cg-suburban-window-sunset",
+      "description": "夕阳越过郊外的屋檐与车轨，她倚在窗边回望；喧嚣退到远处，只剩暮色和你们共享的安静。",
+      "enabled": true,
+      "provenance": {
+        "license": "仅作当前项目测试",
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "郊外窗台.jpg"
+      },
+      "subtitle": "暮色落在远方的窗沿",
+      "thumbUrl": "assets/cg_suburban_window_sunset.jpg",
+      "chapter": "约会",
+      "rarity": "珍贵",
+      "imageUrl": "assets/cg_suburban_window_sunset.jpg",
+      "title": "郊外晚望"
+    },
+    {
+      "tags": [
+        "兜风",
+        "跑车",
+        "黄昏"
+      ],
+      "id": "cg-night-drive-sports-car",
+      "description": "她握住方向盘驶入暮色，车窗外的山影与灯火向后退去；这一程没有目的地，只有并肩向前的风。",
+      "enabled": true,
+      "provenance": {
+        "license": "仅作当前项目测试",
+        "sourceType": "user-provided-test-asset",
+        "originalFilename": "跑车.jpg"
+      },
+      "subtitle": "让风替我们记住这段路",
+      "thumbUrl": "assets/cg_night_drive_sports_car.jpg",
+      "chapter": "约会",
+      "rarity": "珍贵",
+      "imageUrl": "assets/cg_night_drive_sports_car.jpg",
+      "title": "夜色兜风"
     }
   ]
 }
