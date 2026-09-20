@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "updatedAt": "2026-09-20",
   "entries": [
     {
@@ -466,6 +466,54 @@
         "sourcePage": "",
         "artist": "待登记",
         "originalFilename": "画中人·阴.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-muzi-poster-02",
+      "title": "紫夜回眸",
+      "subtitle": "电线与高塔之间的红瞳",
+      "description": "黑白与紫色切割城市天幕，她回首于电线与高塔之间，红瞳像一笔未完的夜色。",
+      "imageUrl": "assets/cg_muzi_poster_02.jpg",
+      "thumbUrl": "assets/cg_muzi_poster_02.jpg",
+      "rarity": "秘藏",
+      "chapter": "人物",
+      "tags": [
+        "海报",
+        "紫夜",
+        "城市",
+        "红瞳"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "海报2.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-muzi-poster-03",
+      "title": "星图私语",
+      "subtitle": "旧纸、星图与花影拼成的夏夜",
+      "description": "旧纸、星图与花影拼成一页私人档案；她抬头望来，像把一整个夜空收进画框。",
+      "imageUrl": "assets/cg_muzi_poster_03.jpg",
+      "thumbUrl": "assets/cg_muzi_poster_03.jpg",
+      "rarity": "珍贵",
+      "chapter": "人物",
+      "tags": [
+        "海报",
+        "星图",
+        "拼贴",
+        "人物"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "海报3.jpg",
         "license": "仅作当前项目测试"
       }
     }
