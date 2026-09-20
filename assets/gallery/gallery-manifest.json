@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.8.0",
+  "version": "0.9.1",
   "updatedAt": "2026-09-20",
   "entries": [
     {
@@ -373,6 +373,99 @@
         "sourcePage": "",
         "artist": "待登记",
         "originalFilename": "拜占庭艺术画.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-lover-bridge",
+      "title": "情人桥",
+      "subtitle": "偷偷挂上的一枚同心锁",
+      "description": "她趁你不注意，在情人桥的锁栏上偷偷挂下一枚同心锁；被你发现时，原本镇定的脸颊先红了起来，只能别过视线，假装这只是随手为之。",
+      "imageUrl": "assets/cg_lover_bridge.jpg",
+      "thumbUrl": "assets/cg_lover_bridge.jpg",
+      "rarity": "珍贵",
+      "chapter": "约会",
+      "tags": [
+        "情人桥",
+        "同心锁",
+        "约会"
+      ],
+      "enabled": true,
+      "achievementId": "achievement_lover_bridge",
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "情人桥.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-muzi-poster",
+      "title": "仍向更高的天空",
+      "subtitle": "花影、蓝焰与她的名字",
+      "description": "蓝色的光与花枝交叠成一张属于她的海报；世界即使反复崩塌，她仍会朝着更高的天空继续前行。",
+      "imageUrl": "assets/cg_muzi_poster.jpg",
+      "thumbUrl": "assets/cg_muzi_poster.jpg",
+      "rarity": "珍贵",
+      "chapter": "人物",
+      "tags": [
+        "海报",
+        "李沐子",
+        "向前"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "海报1.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-muzi-painted-sun",
+      "title": "画中人·阳",
+      "subtitle": "墨色深处的一线暖光",
+      "description": "水墨、花枝与红瞳交融成一幅人物画；她在浓重的墨色里抬眼，像从旧日阴影中向光处走来。",
+      "imageUrl": "assets/cg_muzi_painted_sun.jpg",
+      "thumbUrl": "assets/cg_muzi_painted_sun.jpg",
+      "rarity": "秘藏",
+      "chapter": "人物",
+      "tags": [
+        "水墨",
+        "人像",
+        "向阳"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "画中人·阳.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-muzi-painted-moon",
+      "title": "画中人·阴",
+      "subtitle": "墨色收束后的静默凝视",
+      "description": "与《画中人·阳》相对的一幅人物画，以更深的色调收束光线，留下安静而克制的凝视。",
+      "imageUrl": "assets/cg_muzi_painted_moon.jpg",
+      "thumbUrl": "assets/cg_muzi_painted_moon.jpg",
+      "rarity": "秘藏",
+      "chapter": "人物",
+      "tags": [
+        "水墨",
+        "人像",
+        "静默"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "画中人·阴.jpg",
         "license": "仅作当前项目测试"
       }
     }

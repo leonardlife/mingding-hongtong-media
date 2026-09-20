@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "achievementId": "mingding-hongtong-achievements",
-  "version": "0.5.0",
+  "version": "0.6.1",
   "updatedAt": "2026-09-20",
   "entries": [
     {
@@ -516,6 +516,69 @@
         "sourcePage": "",
         "artist": "待登记",
         "originalFilename": "毕业舞会.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "achievement_lover_bridge",
+      "title": "同心锁",
+      "category": "约会",
+      "rarity": "珍贵",
+      "imageUrl": "assets/achievement_lover_bridge.jpg",
+      "description": "她趁你不注意，在情人桥的锁栏上偷偷挂下一枚同心锁；被你发现时，原本镇定的脸颊先红了起来，只能别过视线，假装这只是随手为之。",
+      "quote": "谁、谁说这是给你的了……不许笑。",
+      "hint": "发现李沐子偷偷在情人桥挂锁，并在她害羞时回应这份心意。",
+      "evidenceLabel": "发现李沐子偷偷挂锁，并完成情人桥约会事件",
+      "trigger": {
+        "mode": "all",
+        "targetProgress": 1,
+        "requiresConfirmation": false,
+        "conditions": [
+          {
+            "id": "event",
+            "field": "事件键",
+            "operator": "equals",
+            "value": "lover_bridge_together"
+          },
+          {
+            "id": "completed",
+            "field": "完成状态",
+            "operator": "equals",
+            "value": "已完成"
+          },
+          {
+            "id": "bridge",
+            "field": "环境标签",
+            "operator": "includes",
+            "value": "情人桥"
+          },
+          {
+            "id": "muzi",
+            "field": "对象",
+            "operator": "includes",
+            "value": "李沐子"
+          },
+          {
+            "id": "user_present",
+            "field": "关系标签",
+            "operator": "includes",
+            "value": "user在场"
+          },
+          {
+            "id": "confidence",
+            "field": "可信度",
+            "operator": "gte",
+            "value": 80
+          }
+        ]
+      },
+      "thumbUrl": "assets/achievement_lover_bridge.jpg",
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "情人桥.jpg",
         "license": "仅作当前项目测试"
       }
     }
