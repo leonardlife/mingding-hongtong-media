@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.9.2",
-  "updatedAt": "2026-09-20",
+  "version": "0.9.3",
+  "updatedAt": "2026-09-21",
   "entries": [
     {
       "id": "cg-destined-red-eyes-snow",
@@ -516,6 +516,58 @@
         "originalFilename": "海报3.jpg",
         "license": "仅作当前项目测试"
       }
+    },
+    {
+      "id": "cg-flower-garden",
+      "title": "花圃午后",
+      "subtitle": "花影与她一同盛放",
+      "description": "她抱着刚挑好的花盆走过明亮的花圃，阳光穿过枝叶落在紫色裙摆上；这一刻的她，比花还要鲜活。",
+      "imageUrl": "assets/cg_flower_garden.jpg",
+      "thumbUrl": "assets/cg_flower_garden.jpg",
+      "rarity": "珍贵",
+      "chapter": "日常",
+      "tags": ["花圃", "午后", "日常", "明亮"],
+      "enabled": true,
+      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "花圃.jpg", "license": "仅作当前项目测试"}
+    },
+    {
+      "id": "cg-dream-leviathan",
+      "title": "梦渡天穹",
+      "subtitle": "梦境尽头，巨船悬于晴空",
+      "description": "巨大的船影悬在梦境般的蓝天之下，她站在残旧的锚与漂浮的箱笼之间，像是正在等待一场通往未知的远行。",
+      "imageUrl": "assets/cg_dream_leviathan.jpg",
+      "thumbUrl": "assets/cg_dream_leviathan.jpg",
+      "rarity": "秘藏",
+      "chapter": "梦境",
+      "tags": ["梦境", "巨船", "秘境", "修仙意象"],
+      "enabled": true,
+      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "梦1.jpg", "license": "仅作当前项目测试"}
+    },
+    {
+      "id": "cg-starry-path",
+      "title": "星空下的小路",
+      "subtitle": "夜色深处，与你并肩仰望",
+      "description": "雨后的乡间小路映着满天星光，她停在路灯与暮色交界处抬头仰望；远处的天幕，像一场只为你们亮起的梦。",
+      "imageUrl": "assets/cg_starry_path.jpg",
+      "thumbUrl": "assets/cg_starry_path.jpg",
+      "rarity": "珍贵",
+      "chapter": "约会",
+      "tags": ["星空", "夜晚", "小路", "并肩"],
+      "enabled": true,
+      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "星空下的小路.jpg", "license": "仅作当前项目测试"}
+    },
+    {
+      "id": "cg-good-morning",
+      "title": "早上好",
+      "subtitle": "晨光里第一眼见到你",
+      "description": "晨光从窗帘间流入，她带着刚睡醒的慵懒抬眼看向你；无需多余的话，这句早上好已经足够让一天开始。",
+      "imageUrl": "assets/cg_good_morning.jpg",
+      "thumbUrl": "assets/cg_good_morning.jpg",
+      "rarity": "稀有",
+      "chapter": "日常",
+      "tags": ["清晨", "日常", "亲密", "早安"],
+      "enabled": true,
+      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "早上好.jpg", "license": "仅作当前项目测试"}
     }
   ]
 }
