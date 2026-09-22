@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.9.3",
-  "updatedAt": "2026-09-21",
+  "version": "0.9.4",
+  "updatedAt": "2026-09-22",
   "entries": [
     {
       "id": "cg-destined-red-eyes-snow",
@@ -568,6 +568,30 @@
       "tags": ["清晨", "日常", "亲密", "早安"],
       "enabled": true,
       "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "早上好.jpg", "license": "仅作当前项目测试"}
+    },
+    {
+      "id": "cg-dabao-voyage",
+      "title": "大宝",
+      "imageUrl": "assets/cg_dabao_voyage.jpg",
+      "thumbUrl": "assets/cg_dabao_voyage.jpg",
+      "rarity": "传说",
+      "chapter": "人物",
+      "tags": ["Q版", "巨舰",  "大宝"],
+      "description": "似乎是某个江东铁壁的倒影。",
+      "enabled": true,
+      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "大宝.jpg", "license": "仅作当前项目测试"}
+    },
+    {
+      "id": "cg-autumn-shadow",
+      "title": "秋日一影",
+      "imageUrl": "assets/cg_autumn_shadow.jpg",
+      "thumbUrl": "assets/cg_autumn_shadow.jpg",
+      "rarity": "珍贵",
+      "chapter": "人物",
+      "tags": ["秋日", "黄叶", "紫衣", "回眸"],
+      "description": "秋日的阳光，错错落落，树梢下的人影。",
+      "enabled": true,
+      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "秋日一影.jpg", "license": "仅作当前项目测试"}
     }
   ]
 }
