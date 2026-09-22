@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "galleryId": "mingding-hongtong-campus",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "updatedAt": "2026-09-22",
   "entries": [
     {
@@ -12,7 +12,7 @@
       "imageUrl": "assets/cg_red_eyes_initial.jpg",
       "thumbUrl": "assets/cg_red_eyes_initial.jpg",
       "rarity": "传说",
-      "chapter": "初遇",
+      "chapter": "日常与陪伴",
       "tags": [
         "雪夜",
         "初见",
@@ -35,7 +35,7 @@
       "imageUrl": "assets/cg_red_eyes_sunset.jpg",
       "thumbUrl": "assets/cg_red_eyes_sunset.jpg",
       "rarity": "珍贵",
-      "chapter": "约会",
+      "chapter": "约会与远行",
       "tags": [
         "落日",
         "约会",
@@ -58,10 +58,11 @@
       "imageUrl": "assets/cg_wedding_red.jpg",
       "thumbUrl": "assets/cg_wedding_red.jpg",
       "rarity": "传说",
-      "chapter": "誓约",
+      "chapter": "三书六礼",
       "tags": [
         "婚礼",
         "红妆",
+        "亲迎",
         "誓约"
       ],
       "enabled": true,
@@ -79,7 +80,7 @@
       "imageUrl": "assets/cg_spring_thunder.jpg",
       "thumbUrl": "assets/cg_spring_thunder.jpg",
       "rarity": "秘藏",
-      "chapter": "修仙秘闻",
+      "chapter": "修仙纪事",
       "tags": [
         "春雷",
         "青龙",
@@ -100,7 +101,7 @@
       "imageUrl": "assets/cg_library_study.jpg",
       "thumbUrl": "assets/cg_library_study.jpg",
       "rarity": "珍贵",
-      "chapter": "校园日常",
+      "chapter": "日常与陪伴",
       "tags": [
         "图书馆",
         "午后",
@@ -121,7 +122,7 @@
       "imageUrl": "assets/cg_red_eyes_crows.jpg",
       "thumbUrl": "assets/cg_red_eyes_crows.jpg",
       "rarity": "珍贵",
-      "chapter": "修仙秘闻",
+      "chapter": "梦境一角",
       "tags": [
         "赤月",
         "群鸦",
@@ -139,11 +140,11 @@
       "id": "cg-red-eyes-blue-white",
       "title": "蓝白之间",
       "subtitle": "风从高处经过",
-      "description": "蓝色的天与白色的楼交织，她站在高处俯望，紫色衣摆被风托起；那双红瞳依旧冷静，却没有拒绝你的靠近。",
+      "description": "蓝白色的天幕切开视野，她站在高处俯望人间，紫色衣摆被风托起；那双红瞳依旧冷静，却没有拒绝你的靠近。",
       "imageUrl": "assets/cg_red_eyes_blue_white.jpg",
       "thumbUrl": "assets/cg_red_eyes_blue_white.jpg",
       "rarity": "珍贵",
-      "chapter": "人物",
+      "chapter": "日常与陪伴",
       "tags": [
         "蓝白",
         "肖像",
@@ -164,7 +165,7 @@
       "imageUrl": "assets/cg_red_eyes_bridge.jpg",
       "thumbUrl": "assets/cg_red_eyes_bridge.jpg",
       "rarity": "珍贵",
-      "chapter": "城市",
+      "chapter": "约会与远行",
       "tags": [
         "天桥",
         "城市",
@@ -186,7 +187,7 @@
       "imageUrl": "assets/cg_red_eyes_invitation.jpg",
       "thumbUrl": "assets/cg_red_eyes_invitation.jpg",
       "rarity": "传说",
-      "chapter": "相逢",
+      "chapter": "海报档案",
       "tags": [
         "邀约",
         "相逢",
@@ -207,7 +208,7 @@
       "imageUrl": "assets/cg_campus_festival_memory.jpg",
       "thumbUrl": "assets/cg_campus_festival_memory.jpg",
       "rarity": "珍贵",
-      "chapter": "校园活动",
+      "chapter": "日常与陪伴",
       "tags": [
         "文化节",
         "樱花",
@@ -229,7 +230,7 @@
       "imageUrl": "assets/cg_rooftop_tribulation.jpg",
       "thumbUrl": "assets/cg_rooftop_tribulation.jpg",
       "rarity": "传说",
-      "chapter": "修仙秘闻",
+      "chapter": "修仙纪事",
       "tags": [
         "天台",
         "雷劫",
@@ -251,7 +252,7 @@
       "imageUrl": "assets/cg_shared_umbrella.jpg",
       "thumbUrl": "assets/cg_shared_umbrella.jpg",
       "rarity": "稀有",
-      "chapter": "校园日常",
+      "chapter": "日常与陪伴",
       "tags": [
         "雨天",
         "共伞",
@@ -273,7 +274,7 @@
       "imageUrl": "assets/cg_nightmare_awakening.jpg",
       "thumbUrl": "assets/cg_nightmare_awakening.jpg",
       "rarity": "珍贵",
-      "chapter": "陪伴",
+      "chapter": "日常与陪伴",
       "tags": [
         "噩梦",
         "惊醒",
@@ -303,7 +304,7 @@
       },
       "subtitle": "暮色落在远方的窗沿",
       "thumbUrl": "assets/cg_suburban_window_sunset.jpg",
-      "chapter": "约会",
+      "chapter": "约会与远行",
       "rarity": "珍贵",
       "imageUrl": "assets/cg_suburban_window_sunset.jpg",
       "title": "郊外晚望"
@@ -324,7 +325,7 @@
       },
       "subtitle": "让风替我们记住这段路",
       "thumbUrl": "assets/cg_night_drive_sports_car.jpg",
-      "chapter": "约会",
+      "chapter": "约会与远行",
       "rarity": "珍贵",
       "imageUrl": "assets/cg_night_drive_sports_car.jpg",
       "title": "夜色兜风"
@@ -337,7 +338,7 @@
       "imageUrl": "assets/cg_dance_ball.jpg",
       "thumbUrl": "assets/cg_dance_ball.jpg",
       "rarity": "珍贵",
-      "chapter": "校园活动",
+      "chapter": "约会与远行",
       "tags": [
         "舞会",
         "共舞",
@@ -356,12 +357,12 @@
     {
       "id": "cg-byzantine-mosaic",
       "title": "拜占庭圣像",
-      "subtitle": "金色马赛克中的她",
-      "description": "古老的马赛克画以金色与深蓝铺开星辰、飞鸟与圣像；她捧着镶嵌宝石的书，隔着千年的光泽。",
+      "subtitle": "金色马赛克中的红瞳",
+      "description": "古老的马赛克画以金色与深蓝铺开星辰、飞鸟与圣像；她捧着镶嵌宝石的书，隔着千年的光泽静静望来。",
       "imageUrl": "assets/cg_byzantine_mosaic.jpg",
       "thumbUrl": "assets/cg_byzantine_mosaic.jpg",
       "rarity": "秘藏",
-      "chapter": "人物",
+      "chapter": "画中人",
       "tags": [
         "马赛克",
         "圣像",
@@ -384,7 +385,7 @@
       "imageUrl": "assets/cg_lover_bridge.jpg",
       "thumbUrl": "assets/cg_lover_bridge.jpg",
       "rarity": "珍贵",
-      "chapter": "约会",
+      "chapter": "约会与远行",
       "tags": [
         "情人桥",
         "同心锁",
@@ -408,7 +409,7 @@
       "imageUrl": "assets/cg_muzi_poster.jpg",
       "thumbUrl": "assets/cg_muzi_poster.jpg",
       "rarity": "珍贵",
-      "chapter": "人物",
+      "chapter": "海报档案",
       "tags": [
         "海报",
         "李沐子",
@@ -427,11 +428,11 @@
       "id": "cg-muzi-painted-sun",
       "title": "画中人·阳",
       "subtitle": "墨色深处的一线暖光",
-      "description": "水墨、花枝与红瞳交融成一幅人物画；她在浓重的墨色里抬眼，似乎是刚从梦中醒来。",
+      "description": "水墨、花枝与红瞳交融成一幅人物画；她在浓重的墨色里抬眼，像从旧日阴影中向光处走来。",
       "imageUrl": "assets/cg_muzi_painted_sun.jpg",
       "thumbUrl": "assets/cg_muzi_painted_sun.jpg",
       "rarity": "秘藏",
-      "chapter": "人物",
+      "chapter": "画中人",
       "tags": [
         "水墨",
         "人像",
@@ -454,7 +455,7 @@
       "imageUrl": "assets/cg_muzi_painted_moon.jpg",
       "thumbUrl": "assets/cg_muzi_painted_moon.jpg",
       "rarity": "秘藏",
-      "chapter": "人物",
+      "chapter": "画中人",
       "tags": [
         "水墨",
         "人像",
@@ -471,13 +472,13 @@
     },
     {
       "id": "cg-muzi-poster-02",
-      "title": "一抹紫夜",
-      "subtitle": "黑白紫切割的城市",
+      "title": "紫夜回眸",
+      "subtitle": "电线与高塔之间的红瞳",
       "description": "黑白与紫色切割城市天幕，她回首于电线与高塔之间，红瞳像一笔未完的夜色。",
       "imageUrl": "assets/cg_muzi_poster_02.jpg",
       "thumbUrl": "assets/cg_muzi_poster_02.jpg",
       "rarity": "秘藏",
-      "chapter": "人物",
+      "chapter": "海报档案",
       "tags": [
         "海报",
         "紫夜",
@@ -497,11 +498,11 @@
       "id": "cg-muzi-poster-03",
       "title": "星图私语",
       "subtitle": "旧纸、星图与花影拼成的夏夜",
-      "description": "旧纸、星图与花影拼成一页私人档案；她抬头，伸懒腰向天空望去。",
+      "description": "旧纸、星图与花影拼成一页私人档案；她抬头望来，像把一整个夜空收进画框。",
       "imageUrl": "assets/cg_muzi_poster_03.jpg",
       "thumbUrl": "assets/cg_muzi_poster_03.jpg",
       "rarity": "珍贵",
-      "chapter": "人物",
+      "chapter": "海报档案",
       "tags": [
         "海报",
         "星图",
@@ -525,10 +526,21 @@
       "imageUrl": "assets/cg_flower_garden.jpg",
       "thumbUrl": "assets/cg_flower_garden.jpg",
       "rarity": "珍贵",
-      "chapter": "日常",
-      "tags": ["花圃", "午后", "日常", "明亮"],
+      "chapter": "日常与陪伴",
+      "tags": [
+        "花圃",
+        "午后",
+        "日常",
+        "明亮"
+      ],
       "enabled": true,
-      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "花圃.jpg", "license": "仅作当前项目测试"}
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "花圃.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-dream-leviathan",
@@ -538,10 +550,21 @@
       "imageUrl": "assets/cg_dream_leviathan.jpg",
       "thumbUrl": "assets/cg_dream_leviathan.jpg",
       "rarity": "秘藏",
-      "chapter": "梦境",
-      "tags": ["梦境", "巨船", "秘境", "修仙意象"],
+      "chapter": "梦境一角",
+      "tags": [
+        "梦境",
+        "巨船",
+        "秘境",
+        "修仙意象"
+      ],
       "enabled": true,
-      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "梦1.jpg", "license": "仅作当前项目测试"}
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "梦1.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-starry-path",
@@ -551,10 +574,21 @@
       "imageUrl": "assets/cg_starry_path.jpg",
       "thumbUrl": "assets/cg_starry_path.jpg",
       "rarity": "珍贵",
-      "chapter": "约会",
-      "tags": ["星空", "夜晚", "小路", "并肩"],
+      "chapter": "约会与远行",
+      "tags": [
+        "星空",
+        "夜晚",
+        "小路",
+        "并肩"
+      ],
       "enabled": true,
-      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "星空下的小路.jpg", "license": "仅作当前项目测试"}
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "星空下的小路.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-good-morning",
@@ -564,23 +598,44 @@
       "imageUrl": "assets/cg_good_morning.jpg",
       "thumbUrl": "assets/cg_good_morning.jpg",
       "rarity": "稀有",
-      "chapter": "日常",
-      "tags": ["清晨", "日常", "亲密", "早安"],
+      "chapter": "日常与陪伴",
+      "tags": [
+        "清晨",
+        "日常",
+        "亲密",
+        "早安"
+      ],
       "enabled": true,
-      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "早上好.jpg", "license": "仅作当前项目测试"}
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "早上好.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-dabao-voyage",
       "title": "大宝",
-       "subtitle": "若敢来犯，定叫你大败而归",
+      "subtitle": "若敢来犯，定叫你大败而归",
       "imageUrl": "assets/cg_dabao_voyage.jpg",
       "thumbUrl": "assets/cg_dabao_voyage.jpg",
       "rarity": "传说",
-      "chapter": "人物",
-      "tags": ["Q版", "巨舰",  "大宝"],
+      "chapter": "彩蛋",
+      "tags": [
+        "Q版",
+        "巨舰",
+        "大宝"
+      ],
       "description": "似乎是某个江东铁壁的倒影。",
       "enabled": true,
-      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "大宝.jpg", "license": "仅作当前项目测试"}
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "大宝.jpg",
+        "license": "仅作当前项目测试"
+      }
     },
     {
       "id": "cg-autumn-shadow",
@@ -589,11 +644,160 @@
       "imageUrl": "assets/cg_autumn_shadow.jpg",
       "thumbUrl": "assets/cg_autumn_shadow.jpg",
       "rarity": "珍贵",
-      "chapter": "人物",
-      "tags": ["秋日", "黄叶", "紫衣", "回眸"],
+      "chapter": "日常与陪伴",
+      "tags": [
+        "秋日",
+        "黄叶",
+        "紫衣",
+        "回眸"
+      ],
       "description": "秋日的阳光，错错落落，树梢下的人影。",
       "enabled": true,
-      "provenance": {"sourceType": "user-provided-test-asset", "sourcePage": "", "artist": "待登记", "originalFilename": "秋日一影.jpg", "license": "仅作当前项目测试"}
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "秋日一影.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-ceremony-wen-ming",
+      "title": "问名",
+      "subtitle": "问名先定，缘分始有回声",
+      "description": "礼从问名开始，名字被郑重地写下，也意味着两段命运第一次被放到同一张案上。",
+      "imageUrl": "assets/cg-ceremony-wen-ming.jpg",
+      "thumbUrl": "assets/cg-ceremony-wen-ming.jpg",
+      "rarity": "稀有",
+      "chapter": "三书六礼",
+      "tags": [
+        "三书六礼",
+        "问名",
+        "定亲"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "问名.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-ceremony-na-cai",
+      "title": "纳采",
+      "subtitle": "以礼相告，携来第一封心意",
+      "description": "使者携礼而来，将愿意结亲的心意送到门前；古礼的第一步，也是关系向前的一次试探。",
+      "imageUrl": "assets/cg-ceremony-na-cai.jpg",
+      "thumbUrl": "assets/cg-ceremony-na-cai.jpg",
+      "rarity": "珍贵",
+      "chapter": "三书六礼",
+      "tags": [
+        "三书六礼",
+        "纳采",
+        "礼书"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "纳采.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-ceremony-na-ji",
+      "title": "纳吉",
+      "subtitle": "合过卜辞，静候一句吉音",
+      "description": "名字与命数在卜辞中相逢，所有等待都被收束成一句可以继续走下去的吉兆。",
+      "imageUrl": "assets/cg-ceremony-na-ji.jpg",
+      "thumbUrl": "assets/cg-ceremony-na-ji.jpg",
+      "rarity": "珍贵",
+      "chapter": "三书六礼",
+      "tags": [
+        "三书六礼",
+        "纳吉",
+        "吉兆"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "纳吉.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-ceremony-na-zheng",
+      "title": "纳征",
+      "subtitle": "以信物落定一场郑重约定",
+      "description": "礼物与信物被郑重交付，口头的心意从此有了可以被记住、被守护的形状。",
+      "imageUrl": "assets/cg-ceremony-na-zheng.jpg",
+      "thumbUrl": "assets/cg-ceremony-na-zheng.jpg",
+      "rarity": "秘藏",
+      "chapter": "三书六礼",
+      "tags": [
+        "三书六礼",
+        "纳征",
+        "信物"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "纳征.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-ceremony-qing-qi",
+      "title": "请期",
+      "subtitle": "把相见的日子写进吉时",
+      "description": "当日期被选定，等待不再漫无边际；那一天终于有了名字，也有了共同奔赴的方向。",
+      "imageUrl": "assets/cg-ceremony-qing-qi.jpg",
+      "thumbUrl": "assets/cg-ceremony-qing-qi.jpg",
+      "rarity": "珍贵",
+      "chapter": "三书六礼",
+      "tags": [
+        "三书六礼",
+        "请期",
+        "吉日"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "请期.jpg",
+        "license": "仅作当前项目测试"
+      }
+    },
+    {
+      "id": "cg-ceremony-qin-ying",
+      "title": "亲迎",
+      "subtitle": "红妆灯火，亲自来迎",
+      "description": "礼成之前最郑重的一步，是亲自走来迎接；红妆与灯火把漫长的约定照成眼前的真实。",
+      "imageUrl": "assets/cg-ceremony-qin-ying.jpg",
+      "thumbUrl": "assets/cg-ceremony-qin-ying.jpg",
+      "rarity": "传说",
+      "chapter": "三书六礼",
+      "tags": [
+        "三书六礼",
+        "亲迎",
+        "红妆"
+      ],
+      "enabled": true,
+      "provenance": {
+        "sourceType": "user-provided-test-asset",
+        "sourcePage": "",
+        "artist": "待登记",
+        "originalFilename": "亲迎.jpg",
+        "license": "仅作当前项目测试"
+      }
     }
   ]
 }

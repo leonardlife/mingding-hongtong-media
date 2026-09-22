@@ -1,58 +1,76 @@
-# 命定红瞳 · 画廊系统初版
+# 命定红瞳 · 画廊资源
 
-这是独立于 MVU 状态栏的画廊原型。界面采用古希腊、古罗马神殿回廊风格，支持从远端清单随机抽取 CG，并在浏览器中保存已收藏记录。
+本目录存放画廊 CG 图和画廊清单 `gallery-manifest.json`。
+角色卡与画廊外接组件通过 HTTPS 远程读取这里的文件，所以必须保持公开可读。
 
-## 当前文件
+## 现状
 
-- `画廊系统初版.html`：可直接打开的单文件原型。
-- `gallery-manifest.json`：本地示范清单；正式使用时可部署到 GitHub Pages、GitHub Raw 或 jsDelivr。
-- `assets` 目录中的测试图只用于开发和未来上传仓库，不会写入角色卡。正式运行时，画廊从用户配置的 HTTPS manifest 读取图片地址；未配置清单时显示明确空状态，不再假装存在“卡内演示图”。
+- `assets/`：29 张 CG 图，合计约 34.3 MB。
+- `gallery-manifest.json`：29 条，`version: 0.9.4`，`updatedAt: 2026-09-22`，约 21.5 KB。
+- 每条的 `imageUrl` 和 `thumbUrl` 当前指向同一张图。
 
-本次测试素材：`红瞳1.png` 已压缩为 `assets/cg_red_eyes_initial.jpg`，绑定画廊条目“初识”；`红瞳2.jpg` 已压缩为 `assets/cg_red_eyes_sunset.jpg`，绑定画廊条目“落日”。原图仍保留在用户桌面目录，项目只保存测试副本。
+## 清单格式
 
-## 视觉说明
-
-- 两侧柱身使用精确重复 24 次的凹槽纹理。
-- 柱头由顶板、颈饰和一对向下延伸的涡卷组成，参考用户提供的古典柱式线稿。
-- 柱廊正下方使用鎏金古希腊语铭文，替代原有红白交织装饰；铭文保留足够对比度和移动端换行。
-- 抽取动画只影响中央提示和 CG 揭幕，柱子始终保持静止。
-
-## 资源清单约定
-
-远端 JSON 顶层包含 `schemaVersion`、`galleryId`、`version` 和 `entries`。每个条目至少需要：
+顶层字段：
 
 ```json
 {
-  "id": "稳定且唯一的-cg-id",
-  "title": "CG 名称",
-  "imageUrl": "https://.../full.jpg",
-  "thumbUrl": "https://.../thumb.webp",
-  "enabled": true
+  "schemaVersion": 1,
+  "galleryId": "mingding-hongtong-campus",
+  "version": "0.9.4",
+  "updatedAt": "2026-09-22",
+  "entries": []
 }
 ```
 
-`description`、`subtitle`、`rarity`、`chapter`、`tags` 和 `provenance` 可以省略。正式线上图片与清单必须使用 HTTPS；清单服务器还需允许浏览器跨域读取。
+`updatedAt` 只是备注，程序不读。
 
-## 抽取与保存规则
+条目字段：
 
-1. 优先从尚未收藏的启用 CG 中随机抽取。
-2. 全部收藏后才会从完整池中重复抽取。
-3. 图片成功加载后才写入收藏；某个候选链接失效时会继续尝试本次候选池中的其他图片，全部失败才结束本次抽取。
-4. 浏览器只保存 CG ID、解锁时间、抽取次数和一份最小展示快照，不保存图片二进制。
-5. 原型使用 `localStorage`；正式接入角色卡时，由 MVU 的 `画廊` 字段作为剧情存档，界面本身的滚动位置等仍留在本地。
+```json
+{
+  "id": "cg-xxx",
+  "title": "CG 名称",
+  "subtitle": "副标题",
+  "description": "说明文字",
+  "imageUrl": "assets/cg_xxx.jpg",
+  "thumbUrl": "assets/cg_xxx.jpg",
+  "rarity": "珍贵",
+  "chapter": "章节名",
+  "tags": ["标签一", "标签二"],
+  "enabled": true,
+  "provenance": {
+    "sourceType": "user-provided-test-asset",
+    "originalFilename": "原文件名.jpg",
+    "license": "仅作当前项目测试"
+  }
+}
+```
 
-## 接入接口
+## 必须遵守的几条
 
-页面公开 `window.MingdingHongtongGallery`：
+- `schemaVersion` 必须是数字 `1`。写成字符串 `"1"` 会被拒绝，报「清单格式不受支持」。
+- `id` 长度 3~80，首字符必须是字母或数字，只能用字母、数字、`.`、`_`、`-`，不能有空格和中文。
+- `id` 是存档的关联键，**发布之后不能改**。改了等于换了一张新图，用户已收藏的记录会对不上。
+- `rarity` 只写 `传说` / `秘藏` / `珍贵` / `稀有` 之一。
+  这是**包含匹配**：不含这四个词的一律**静默降级**成最低档「记忆残章」，不报错也不警告。
+  - 实例：`cg-red-eyes-crows`（赤月鸦影）原本写的是 `珍藏`，「珍藏」不含「珍贵」，
+    所以一直被降级成记忆残章；2026-09-22 已改成 `珍贵`。
+- `tags` 最多 8 个，每个最多 24 字符。
+- 图片地址必须能解析成 **HTTPS**。
+- 相对路径以「清单自身位置」为基准拼接。`assets/cg_xxx.jpg` 会拼成
+  `.../assets/gallery/assets/cg_xxx.jpg`，多一层 `assets/`。
+- 整个清单不超过 **1 MB**，条目不超过 **500** 条。
 
-- `draw()`：抽取一张 CG。
-- `loadManifest(url)`：读取新的 HTTPS 清单。
-- `registerAcquired(ids)`：把一组 CG ID 登记为已收藏。
-- `update(galleryState)`：读取 MVU 风格对象；识别 `状态: 已解锁` 与 `图片ID`。
-- `getState()`：获取当前原型状态副本。
+## 当前稀有度分布
 
-首次抽到新 CG 时派发 `mingding-hongtong:gallery-unlocked`，其中包含 `galleryId` 和建议写入 `stat_data.画廊` 的 `requestedRecord`。界面仍保留本机收藏用于演示，但不会直接改写 MVU。
+传说 5 / 珍贵 16 / 秘藏 6 / 稀有 2，共 29 条。
 
-通过 HTTP(S) 打开开发原型时，可以读取同目录 `gallery-manifest.json`。封装进角色卡后不携带图片，也不自动假定相对目录存在；需要在“资源清单”中填写已部署的 HTTPS manifest。
+## 加新图的流程
 
-正式 GitHub 仓库地址尚未确定，因此初版没有虚构默认线上地址。打开右上角“资源清单”即可填入真实 HTTPS manifest。
+1. 压缩图片，文件名用 `cg_` 开头的小写下划线名，放进 `assets/`。
+2. 在 `entries` 里加一条，`id` 用 `cg-` 开头的短横线名。
+3. 自检：`id` 唯一且合法、`imageUrl` 指向的文件真实存在、`rarity` 只用四档之一、`tags` 不超限。
+4. 提交推送后，用浏览器直接打开清单地址，确认能读到 JSON。
+
+更完整的解析规则、报错文案对照和上线检查清单，见项目工作区的 `画廊清单规范.md`。
