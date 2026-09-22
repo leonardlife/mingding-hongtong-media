@@ -572,6 +572,7 @@
     {
       "id": "cg-dabao-voyage",
       "title": "大宝",
+       "subtitle": "若敢来犯，定叫你大败而归",
       "imageUrl": "assets/cg_dabao_voyage.jpg",
       "thumbUrl": "assets/cg_dabao_voyage.jpg",
       "rarity": "传说",
@@ -584,6 +585,7 @@
     {
       "id": "cg-autumn-shadow",
       "title": "秋日一影",
+      "subtitle": "秋风起，叶落知多少",
       "imageUrl": "assets/cg_autumn_shadow.jpg",
       "thumbUrl": "assets/cg_autumn_shadow.jpg",
       "rarity": "珍贵",
